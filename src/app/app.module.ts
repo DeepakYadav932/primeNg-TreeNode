@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TreeModule } from 'primeng/tree';
+import { TreeComponent } from './tree/tree.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TreeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
