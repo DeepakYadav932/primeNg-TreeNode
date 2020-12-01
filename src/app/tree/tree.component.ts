@@ -114,32 +114,3 @@ export class TreeComponent implements OnInit {
   }
 }
 
-function addNode(node, o) {
-  node.children = node.children || [];
-  if (node.depth === (o.depth - 1)) {
-    node.children.push({ label: node.name});
-  }else {
-    for (const child of node.children) {
-      addNode(child, o);
-    }
-  }
-}
-
-function toTree(data) {
- // Sort data asc by depth
-  data.sort((a, b) => a.depth - b.depth);
-
-
-  return data.reduce((prev, curr, index) => {
-    const node = { } as any;
-    if (index === 0) {
-      node.label = curr.name;
-      prev = curr;
-      prev.children = [];
-    }else {
-      addNode(prev, curr);
-    }
-
-    return prev;
-  }, {});
-}
