@@ -198,10 +198,22 @@
       "depth": 1
     },
     {
+      "location_id": 139,
+      "reg_loc_id": 139,
+      "name": "0537 - Middleton ",
+      "depth": 1
+    },
+    {
+      "location_id": 139,
+      "reg_loc_id": 139,
+      "name": "0537 - Middleton ",
+      "depth": 1
+    },
+    {
       "location_id": 145,
       "reg_loc_id": 145,
       "name": "0543 - Selmer ",
-      "depth": 1
+      "depth": 2
     },
     {
       "location_id": 152,
@@ -284,8 +296,8 @@
     {
       "location_id": 143,
       "reg_loc_id": 143,
-      "name": "0541 - Lexington ",
-      "depth": 1
+      "name": "0541 - Lexington2 ",
+      "depth": 2
     },
     {
       "location_id": 144,
